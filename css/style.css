@@ -4,6 +4,14 @@ h1.ex {
     background-image: linear-gradient(45deg, #7794ff, #44107A, #FF1361, #FFF800);
     animation: .8s shake infinite alternate;
 }
+img{
+    width: 67%;
+}
+
+#old {
+    width: 89%;
+    padding-block-end: 2rm;
+}
 
 main {
     margin: 2rem auto;
