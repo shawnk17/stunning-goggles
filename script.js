@@ -3,7 +3,11 @@ var btnPlay = document.getElementById("btn-play"),
     num = 1;
 
 btnPlay.addEventListener("click", function(){
-    setInterval(counter, 500);
+    if(num <= 100){
+        setInterval(counter, 500);
+    } else {
+        num = 1;
+    }
 });
 
 function counter(){
