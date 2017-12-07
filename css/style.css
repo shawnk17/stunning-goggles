@@ -28,7 +28,8 @@ main {
     100% { transform: skewX(0deg); }  
   }
 
-.team-name {
+.team {
+    display: none;
     
 }
 

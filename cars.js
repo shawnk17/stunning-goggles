@@ -12,7 +12,7 @@ var Car = function Car(make, model, year, vin) {
     this.year = year;
     this.vin = vin;
     this.getDisplayText = function () {
-        return this.make + " , " + this.model + " , " + this.year + " , " + this.vin;
+        return this.make + " , " + this.model + " , " + this.year + " ,  " + this.vin;
     };
 };
 
