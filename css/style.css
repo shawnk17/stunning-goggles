@@ -27,3 +27,15 @@ main {
     20% { transform: skewX(0deg); }
     100% { transform: skewX(0deg); }  
   }
+
+.team-name {
+    
+}
+
+.question-box {
+    border: 1px solid cyan;
+    background-color: lightcyan;
+    color: darkcyan;
+    text-align: center;
+    padding: 1rem;
+}
