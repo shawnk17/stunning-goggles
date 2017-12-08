@@ -56,8 +56,10 @@ function creatBoard(){
         var colDiv = document.createElement("div"),
         boxDiv = document.createElement("div");
          
-        colDiv.classList.add("col-3 px-2 py-2");
-        boxDiv.classList("question-box");
+        colDiv.classList.add("col-3");
+        colDiv.classList.add("px-2");
+        colDiv.classList.add("py-2");
+        boxDiv.classList.add("question-box");
         colDiv.appendChild(boxDiv);
         boxDiv.innerText = element.points;
         });
