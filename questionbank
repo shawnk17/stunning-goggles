@@ -1,8 +1,8 @@
 questions.push({ content: "What is a function?", points: 5});
 questions.push({ content: "What is a method?", points: 5});
 questions.push({ content: "What are the 3 or 4 pillars of OOP? (5 pts each)", points: 5});
-questions.push({ content: "Name the three types of programming styles we discussed. (5 pts each)", points: 5});
-questions.push({ content: "What is the “gorilla and banana problem”?", points: 5});
+questions.push({ content: "Name the three types of programming styles we discussed. (10 pts each)", points: 10});
+questions.push({ content: "What is the “gorilla and banana problem”?", points: 10});
 questions.push({ content: "Describe Inheritance.", points: 5});
 questions.push({ content: "Describe polymorphism.", points: 5});
 questions.push({ content: "Name three HTML 5 elements used to semantically organize a web page.", points: 5});
