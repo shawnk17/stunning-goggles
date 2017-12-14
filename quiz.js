@@ -64,3 +64,4 @@ function creatBoard(){
         boxDiv.innerText = element.points;
         });
 }
+
