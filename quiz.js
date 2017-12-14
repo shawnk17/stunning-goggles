@@ -39,28 +39,30 @@ questions.push({ content: "What is a method?", points: 5});
 questions.push({ content: "What are the 3 or 4 pillars of OOP? (5 pts each)", points: 5});
 questions.push({ content: "Name the three types of programming styles we discussed. (5 pts each)", points: 5});
 questions.push({ content: "What is the “gorilla and banana problem”?", points: 5});
-questions.push({ content: "Describe Inheritance.", points: 5});
-questions.push({ content: "Describe polymorphism.", points: 5});
+questions.push({ content: "Describe Inheritance.", points: 25});
+questions.push({ content: "Describe polymorphism.", points: 25});
 questions.push({ content: "Name three HTML 5 elements used to semantically organize a web page.", points: 5});
 questions.push({ content: "Describe one reason how using HTML 5 sections could be beneficial for some of your users.", points: 5});
 questions.push({ content: "What’s the difference between relative and absolute links?", points: 5});
 questions.push({ content: "Describe the difference between in-line and block elements.", points: 5});
-questions.push({ content: "What does float do?", points: 5});
-questions.push({ content: "What is one pain point of working with floats?", points: 5});
+questions.push({ content: "What does float do?", points: 45});
+questions.push({ content: "What is one pain point of working with floats?", points: 50});
 questions.push({ content: "If you have a div with class of “my-div”, what would the CSS look like to tell that div to use flexbox for its contents?", points: 5});
 questions.push({ content: "What are some advantages of using a PaaS (Platform as a Service) offering like Azure App Services?", points: 5});
 questions.push({ content: "Describe what media queries are and why we use them.", points: 5});
 
 function creatBoard(){
+    var board = document.querySelector("#quiz-board");
     questions.forEach(element => {
         var colDiv = document.createElement("div"),
-        boxDiv = document.createElement("div");
+            boxDiv = document.createElement("div");
          
+        board.appendChild(colDiv);
+        colDiv.appendChild(boxDiv);
         colDiv.classList.add("col-3");
         colDiv.classList.add("px-2");
         colDiv.classList.add("py-2");
         boxDiv.classList.add("question-box");
-        colDiv.appendChild(boxDiv);
         boxDiv.innerText = element.points;
         });
 }
